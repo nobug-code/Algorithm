@@ -8,9 +8,7 @@ temp_list = []
 
 def soluntions(S):
 
-
     for i in range(len(S)-1):
-
         if(i == len(S)-2):
             if(S[i] > S[i+1]):
                 temp_list.append(S[i+1])
